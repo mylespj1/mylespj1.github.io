@@ -247,13 +247,13 @@
       display: grid; grid-template-columns: 1fr 1fr;
       gap: 5rem; align-items: center;
     }
-    /* # ABOUT — replace the gradient with your own photo */
+    /* # ABOUT — photo styles: constrained to its grid column, portrait ratio */
     .about-image {
+      width: 100%;
       aspect-ratio: 3/4;
-      background: linear-gradient(160deg, #f5d55a, #5a9bbf);
-      display: flex; align-items: center; justify-content: center;
-      font-family: 'Playfair Display', serif;
-      font-style: italic; color: rgba(255,255,255,0.4); font-size: 0.9rem;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
     }
     #about .section-label { color: var(--yellow); }
     #about .section-title { color: var(--cream); }
@@ -620,7 +620,7 @@
 <section id="about">
   <div class="about-grid">
 
-    <!-- # YOUR PHOTO — replace with <img class="about-image" src="images/yourphoto.jpg" alt="Your name"> -->
+    <!-- # YOUR PHOTO -->
     <img class="about-image" src="images/SamPic.jpg" alt="SamPic">
 
     <div>
