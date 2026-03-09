@@ -1,0 +1,116 @@
+<!-- ================================================================
+     # SCHEDULE SECTION — Farmers Market dates
+     # ---------------------------------------------------------------
+     # HOW TO EDIT MARKETS:
+     #   - Change the number between <div class="day">  and  </div>
+     #   - Change the month between <div class="month"> and  </div>
+     #   - Change the market name inside <h3>...</h3>
+     #   - Change the address inside <p>...</p>
+     #   - Change the time in <div class="market-time">...</div>
+     #
+     # TO ADD A NEW MARKET: copy one full market-card block and paste
+     #   it below the last one, then update all the details
+     #
+     # TO REMOVE A MARKET: delete the whole market-card block
+     ================================================================ -->
+  
+  <section id="schedule">
+  <div class="schedule-container">
+
+    <!-- # Schedule section small label -->
+    <p class="section-label">Find Me</p>
+
+    <!-- # Schedule section title -->
+    <h2 class="section-title">Farmers Market Schedule</h2>
+
+    <!-- # Schedule section description -->
+    <p class="section-desc">Come say hello! I set up my booth at local markets throughout the season.</p>
+
+    <div class="schedule-grid">
+
+      <!-- # MARKET 1 — edit date, name, address, and time -->
+      <div class="market-card">
+        <div class="market-date">
+          <div class="day">15</div>       <!-- # Day number -->
+          <div class="month">Mar</div>    <!-- # Month abbreviation -->
+        </div>
+        <div class="market-info">
+          <h3>Downtown Provo Market</h3>                            <!-- # Market name -->
+          <p>100 N University Ave, Provo, UT &middot; Booth #12</p> <!-- # Address -->
+        </div>
+        <div class="market-time">8 AM &ndash; 1 PM</div>           <!-- # Hours -->
+      </div>
+
+      <!-- # MARKET 2 -->
+      <div class="market-card">
+        <div class="market-date">
+          <div class="day">22</div>
+          <div class="month">Mar</div>
+        </div>
+        <div class="market-info">
+          <h3>Springville Art Market</h3>
+          <p>200 S Main St, Springville, UT</p>
+        </div>
+        <div class="market-time">9 AM &ndash; 2 PM</div>
+      </div>
+
+      <!-- # MARKET 3 -->
+      <div class="market-card">
+        <div class="market-date">
+          <div class="day">5</div>
+          <div class="month">Apr</div>
+        </div>
+        <div class="market-info">
+          <h3>Thanksgiving Point Market</h3>
+          <p>3003 N Thanksgiving Way, Lehi, UT</p>
+        </div>
+        <div class="market-time">8 AM &ndash; 12 PM</div>
+      </div>
+
+      <!-- # MARKET 4 -->
+      <div class="market-card">
+        <div class="market-date">
+          <div class="day">19</div>
+          <div class="month">Apr</div>
+        </div>
+        <div class="market-info">
+          <h3>Orem Farmers Market</h3>
+          <p>Center St &amp; State St, Orem, UT &middot; Near the fountain</p>
+        </div>
+        <div class="market-time">7 AM &ndash; 1 PM</div>
+      </div>
+
+      <!-- # MARKET 5 -->
+      <div class="market-card">
+        <div class="market-date">
+          <div class="day">3</div>
+          <div class="month">May</div>
+        </div>
+        <div class="market-info">
+          <h3>Spanish Fork Market Days</h3>
+          <p>80 N Main St, Spanish Fork, UT</p>
+        </div>
+        <div class="market-time">9 AM &ndash; 2 PM</div>
+      </div>
+
+      <!-- # TO ADD MORE MARKETS: copy and paste the block below
+      <div class="market-card">
+        <div class="market-date">
+          <div class="day">1</div>
+          <div class="month">Jun</div>
+        </div>
+        <div class="market-info">
+          <h3>Market Name Here</h3>
+          <p>Address here</p>
+        </div>
+        <div class="market-time">9 AM - 2 PM</div>
+      </div>
+      -->
+
+    </div>
+
+    <!-- # Small note below schedule -->
+    <p style="margin-top:2rem; color:var(--stone); font-size:0.85rem;">Follow on Instagram for last-minute pop-ups and schedule changes.</p>
+
+  </div>
+  </section>
